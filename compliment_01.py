@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Austin Kenyon
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION:  Making a simple if else code for giving a compliment.
 
 
 
@@ -15,7 +15,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+comp = input("would you like a compliment? ")
+if comp == "yes":
+    print("You have wonderful eyes.")
+    print("Thank you for playing.")
+else:
+    print("Thank you for playing.")
 
 
 
@@ -66,12 +71,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+3
 
 
 
 2. What was the hardest part of this lab?
-
+remembering to add the seconded print line to the if statement to make sure it still prints "Thank you for playing."
 
 
 
